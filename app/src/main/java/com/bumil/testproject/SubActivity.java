@@ -31,5 +31,6 @@ public class SubActivity extends AppCompatActivity {
 
     public void onClick(View view) {
         finish();
+        overridePendingTransition(R.anim.fade,R.anim.anim_slide_in_top);
     }
 }

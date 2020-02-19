@@ -54,8 +54,9 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(this, SubActivity.class);
                 intent.putExtra("신상", new Person("래리 페이지", "남성", "구글"));
                 intent.putExtra("userId", id);
-                //startActivity(intent);
-                startActivityForResult(intent, 0);
+                startActivity(intent);
+                overridePendingTransition(R.anim.shake,R.anim.shake);
+                //startActivityForResult(intent, 0);
                 break;
         }
     }
