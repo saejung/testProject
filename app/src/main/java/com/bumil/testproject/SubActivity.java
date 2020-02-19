@@ -17,7 +17,7 @@ public class SubActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String userId = intent.getStringExtra("userId");
 
-        /*
+        /* 테스트
         if(userId.equals(""))
             Toast.makeText(this, "입력한 아이디가 없습니다!", Toast.LENGTH_SHORT).show();
         else
