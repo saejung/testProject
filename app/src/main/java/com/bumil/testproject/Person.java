@@ -11,7 +11,7 @@ public class Person implements Serializable {
     * 생성자
     * @param name           :이름
     * @param gender         :성별
-    * @param organization   :소속 ㅁㅁ11
+    * @param organization   :소속
     */
     public Person(String name, String gender, String organization)
     {
